@@ -1,0 +1,252 @@
+2021-10-21 10:51:17.393 [main] INFO  DemoApplication:55 - Starting DemoApplication using Java 1.8.0_291 on zengchao with PID 327708 (E:\project\demo\target\classes started by zengch in E:\project\demo)
+2021-10-21 10:51:17.421 [main] INFO  DemoApplication:659 - No active profile set, falling back to default profiles: default
+2021-10-21 10:51:18.633 [main] INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2021-10-21 10:51:18.642 [main] INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-10-21 10:51:18.643 [main] INFO  StandardService:173 - Starting service [Tomcat]
+2021-10-21 10:51:18.643 [main] INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-10-21 10:51:18.780 [main] INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2021-10-21 10:51:18.781 [main] INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 1321 ms
+2021-10-21 10:51:19.695 [main] INFO  WelcomePageHandlerMapping:57 - Adding welcome page template: index
+2021-10-21 10:51:19.841 [main] INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-10-21 10:51:19.850 [main] WARN  AnnotationConfigServletWebServerApplicationContext:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-10-21 10:51:19.855 [main] INFO  Http11NioProtocol:173 - Pausing ProtocolHandler ["http-nio-8080"]
+2021-10-21 10:51:19.855 [main] INFO  StandardService:173 - Stopping service [Tomcat]
+2021-10-21 10:51:19.860 [main] INFO  Http11NioProtocol:173 - Stopping ProtocolHandler ["http-nio-8080"]
+2021-10-21 10:51:19.861 [main] INFO  Http11NioProtocol:173 - Destroying ProtocolHandler ["http-nio-8080"]
+2021-10-21 10:51:19.866 [main] INFO  ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-21 10:51:19.894 [main] ERROR LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-10-21 10:51:38.152 [main] INFO  DemoApplication:55 - Starting DemoApplication using Java 1.8.0_291 on zengchao with PID 352152 (E:\project\demo\target\classes started by zengch in E:\project\demo)
+2021-10-21 10:51:38.154 [main] INFO  DemoApplication:659 - No active profile set, falling back to default profiles: default
+2021-10-21 10:51:39.001 [main] INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8081 (http)
+2021-10-21 10:51:39.012 [main] INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8081"]
+2021-10-21 10:51:39.013 [main] INFO  StandardService:173 - Starting service [Tomcat]
+2021-10-21 10:51:39.013 [main] INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-10-21 10:51:39.130 [main] INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2021-10-21 10:51:39.130 [main] INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 938 ms
+2021-10-21 10:51:39.754 [main] INFO  WelcomePageHandlerMapping:57 - Adding welcome page template: index
+2021-10-21 10:51:39.853 [main] INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8081"]
+2021-10-21 10:51:39.894 [main] INFO  TomcatWebServer:220 - Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-21 10:51:39.911 [main] INFO  DemoApplication:61 - Started DemoApplication in 2.196 seconds (JVM running for 2.63)
+2021-10-21 10:51:59.817 [main] INFO  DemoApplication:55 - Starting DemoApplication using Java 1.8.0_291 on zengchao with PID 344904 (E:\project\demo\target\classes started by zengch in E:\project\demo)
+2021-10-21 10:51:59.819 [main] INFO  DemoApplication:659 - No active profile set, falling back to default profiles: default
+2021-10-21 10:52:00.659 [main] INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8081 (http)
+2021-10-21 10:52:00.671 [main] INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8081"]
+2021-10-21 10:52:00.671 [main] INFO  StandardService:173 - Starting service [Tomcat]
+2021-10-21 10:52:00.672 [main] INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-10-21 10:52:00.778 [main] INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2021-10-21 10:52:00.778 [main] INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 923 ms
+2021-10-21 10:52:01.464 [main] INFO  WelcomePageHandlerMapping:57 - Adding welcome page template: index
+2021-10-21 10:52:01.570 [main] INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8081"]
+2021-10-21 10:52:01.592 [main] INFO  TomcatWebServer:220 - Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-21 10:52:01.606 [main] INFO  DemoApplication:61 - Started DemoApplication in 2.235 seconds (JVM running for 2.709)
+2021-10-21 10:53:04.456 [main] INFO  DemoApplication:55 - Starting DemoApplication using Java 1.8.0_291 on zengchao with PID 283008 (E:\project\demo\target\classes started by zengch in E:\project\demo)
+2021-10-21 10:53:04.459 [main] INFO  DemoApplication:659 - No active profile set, falling back to default profiles: default
+2021-10-21 10:53:05.321 [main] INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8081 (http)
+2021-10-21 10:53:05.335 [main] INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8081"]
+2021-10-21 10:53:05.336 [main] INFO  StandardService:173 - Starting service [Tomcat]
+2021-10-21 10:53:05.336 [main] INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-10-21 10:53:05.453 [main] INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2021-10-21 10:53:05.453 [main] INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 958 ms
+2021-10-21 10:53:06.144 [main] INFO  WelcomePageHandlerMapping:57 - Adding welcome page template: index
+2021-10-21 10:53:06.267 [main] INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8081"]
+2021-10-21 10:53:06.296 [main] INFO  TomcatWebServer:220 - Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-21 10:53:06.313 [main] INFO  DemoApplication:61 - Started DemoApplication in 2.286 seconds (JVM running for 2.742)
+2021-10-21 10:54:21.271 [main] INFO  DemoApplication:55 - Starting DemoApplication using Java 1.8.0_291 on zengchao with PID 308792 (E:\project\demo\target\classes started by zengch in E:\project\demo)
+2021-10-21 10:54:21.276 [main] INFO  DemoApplication:659 - No active profile set, falling back to default profiles: default
+2021-10-21 10:54:22.260 [main] INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8081 (http)
+2021-10-21 10:54:22.271 [main] INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8081"]
+2021-10-21 10:54:22.271 [main] INFO  StandardService:173 - Starting service [Tomcat]
+2021-10-21 10:54:22.272 [main] INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-10-21 10:54:22.389 [main] INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2021-10-21 10:54:22.389 [main] INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 1069 ms
+2021-10-21 10:54:23.035 [main] INFO  WelcomePageHandlerMapping:57 - Adding welcome page template: index
+2021-10-21 10:54:23.141 [main] INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8081"]
+2021-10-21 10:54:23.164 [main] INFO  TomcatWebServer:220 - Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-21 10:54:23.179 [main] INFO  DemoApplication:61 - Started DemoApplication in 2.414 seconds (JVM running for 2.9)
+2021-10-21 10:55:41.103 [main] INFO  DemoApplication:55 - Starting DemoApplication using Java 1.8.0_291 on zengchao with PID 331008 (E:\project\demo\target\classes started by zengch in E:\project\demo)
+2021-10-21 10:55:41.106 [main] INFO  DemoApplication:659 - No active profile set, falling back to default profiles: default
+2021-10-21 10:55:42.022 [main] INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8081 (http)
+2021-10-21 10:55:42.032 [main] INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8081"]
+2021-10-21 10:55:42.033 [main] INFO  StandardService:173 - Starting service [Tomcat]
+2021-10-21 10:55:42.033 [main] INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-10-21 10:55:42.143 [main] INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2021-10-21 10:55:42.144 [main] INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 993 ms
+2021-10-21 10:55:42.798 [main] INFO  WelcomePageHandlerMapping:57 - Adding welcome page template: index
+2021-10-21 10:55:42.895 [main] INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8081"]
+2021-10-21 10:55:42.916 [main] INFO  TomcatWebServer:220 - Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-21 10:55:42.931 [main] INFO  DemoApplication:61 - Started DemoApplication in 2.32 seconds (JVM running for 2.795)
+2021-10-21 11:06:09.904 [main] INFO  DemoApplication:55 - Starting DemoApplication using Java 1.8.0_291 on zengchao with PID 401084 (E:\project\demo\target\classes started by zengch in E:\project\demo)
+2021-10-21 11:06:09.906 [main] INFO  DemoApplication:659 - No active profile set, falling back to default profiles: default
+2021-10-21 11:06:10.761 [main] INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8081 (http)
+2021-10-21 11:06:10.774 [main] INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8081"]
+2021-10-21 11:06:10.775 [main] INFO  StandardService:173 - Starting service [Tomcat]
+2021-10-21 11:06:10.775 [main] INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-10-21 11:06:10.894 [main] INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2021-10-21 11:06:10.895 [main] INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 951 ms
+2021-10-21 11:06:11.607 [main] INFO  WelcomePageHandlerMapping:57 - Adding welcome page template: index
+2021-10-21 11:06:11.716 [main] INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8081"]
+2021-10-21 11:06:11.740 [main] INFO  TomcatWebServer:220 - Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-21 11:06:11.755 [main] INFO  DemoApplication:61 - Started DemoApplication in 2.27 seconds (JVM running for 2.715)
+2021-10-21 11:06:14.320 [main] INFO  ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-21 11:06:14.339 [main] ERROR SpringApplication:843 - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:794)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.txxy.demo.DemoApplication.main(DemoApplication.java:49)
+Caused by: org.springframework.web.client.RestClientException: No HttpMessageConverter for org.springframework.util.LinkedMultiValueMap and content type "application/x-www-form-urlencoded"
+	at org.springframework.web.client.RestTemplate$HttpEntityRequestCallback.doWithRequest(RestTemplate.java:1000)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:774)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at com.txxy.demo.test.JvmOomTest.doRequest(JvmOomTest.java:50)
+	at com.txxy.demo.test.JvmOomTest.run(JvmOomTest.java:31)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	... 5 common frames omitted
+2021-10-21 11:07:45.867 [main] INFO  DemoApplication:55 - Starting DemoApplication using Java 1.8.0_291 on zengchao with PID 323936 (E:\project\demo\target\classes started by zengch in E:\project\demo)
+2021-10-21 11:07:45.869 [main] INFO  DemoApplication:659 - No active profile set, falling back to default profiles: default
+2021-10-21 11:07:46.709 [main] INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8081 (http)
+2021-10-21 11:07:46.722 [main] INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8081"]
+2021-10-21 11:07:46.723 [main] INFO  StandardService:173 - Starting service [Tomcat]
+2021-10-21 11:07:46.723 [main] INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-10-21 11:07:46.829 [main] INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2021-10-21 11:07:46.830 [main] INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 925 ms
+2021-10-21 11:07:47.480 [main] INFO  WelcomePageHandlerMapping:57 - Adding welcome page template: index
+2021-10-21 11:07:47.585 [main] INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8081"]
+2021-10-21 11:07:47.607 [main] INFO  TomcatWebServer:220 - Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-21 11:07:47.619 [main] INFO  DemoApplication:61 - Started DemoApplication in 2.168 seconds (JVM running for 2.607)
+2021-10-21 11:07:47.660 [main] INFO  ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-21 11:07:47.676 [main] ERROR SpringApplication:843 - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:794)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.txxy.demo.DemoApplication.main(DemoApplication.java:49)
+Caused by: org.springframework.web.client.RestClientException: No HttpMessageConverter for org.springframework.util.LinkedMultiValueMap and content type "application/x-www-form-urlencoded"
+	at org.springframework.web.client.RestTemplate$HttpEntityRequestCallback.doWithRequest(RestTemplate.java:1000)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:774)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at com.txxy.demo.test.JvmOomTest.doRequest(JvmOomTest.java:50)
+	at com.txxy.demo.test.JvmOomTest.run(JvmOomTest.java:31)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	... 5 common frames omitted
+2021-10-21 11:08:01.626 [main] INFO  DemoApplication:55 - Starting DemoApplication using Java 1.8.0_291 on zengchao with PID 350548 (E:\project\demo\target\classes started by zengch in E:\project\demo)
+2021-10-21 11:08:01.629 [main] INFO  DemoApplication:659 - No active profile set, falling back to default profiles: default
+2021-10-21 11:08:02.480 [main] INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8081 (http)
+2021-10-21 11:08:02.492 [main] INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8081"]
+2021-10-21 11:08:02.493 [main] INFO  StandardService:173 - Starting service [Tomcat]
+2021-10-21 11:08:02.493 [main] INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-10-21 11:08:02.600 [main] INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2021-10-21 11:08:02.601 [main] INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 936 ms
+2021-10-21 11:08:03.243 [main] INFO  WelcomePageHandlerMapping:57 - Adding welcome page template: index
+2021-10-21 11:08:03.342 [main] INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8081"]
+2021-10-21 11:08:03.367 [main] INFO  TomcatWebServer:220 - Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-21 11:08:03.381 [main] INFO  DemoApplication:61 - Started DemoApplication in 2.168 seconds (JVM running for 2.602)
+2021-10-21 11:09:10.438 [main] INFO  DemoApplication:55 - Starting DemoApplication using Java 1.8.0_291 on zengchao with PID 334728 (E:\project\demo\target\classes started by zengch in E:\project\demo)
+2021-10-21 11:09:10.441 [main] INFO  DemoApplication:659 - No active profile set, falling back to default profiles: default
+2021-10-21 11:09:11.310 [main] INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8081 (http)
+2021-10-21 11:09:11.325 [main] INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8081"]
+2021-10-21 11:09:11.326 [main] INFO  StandardService:173 - Starting service [Tomcat]
+2021-10-21 11:09:11.326 [main] INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-10-21 11:09:11.444 [main] INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2021-10-21 11:09:11.445 [main] INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 967 ms
+2021-10-21 11:09:12.099 [main] INFO  WelcomePageHandlerMapping:57 - Adding welcome page template: index
+2021-10-21 11:09:12.204 [main] INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8081"]
+2021-10-21 11:09:12.230 [main] INFO  TomcatWebServer:220 - Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-21 11:09:12.242 [main] INFO  DemoApplication:61 - Started DemoApplication in 2.236 seconds (JVM running for 2.684)
+2021-10-21 11:12:19.177 [main] INFO  DemoApplication:55 - Starting DemoApplication using Java 1.8.0_291 on zengchao with PID 196964 (E:\project\demo\target\classes started by zengch in E:\project\demo)
+2021-10-21 11:12:19.180 [main] INFO  DemoApplication:659 - No active profile set, falling back to default profiles: default
+2021-10-21 11:12:20.048 [main] INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8081 (http)
+2021-10-21 11:12:20.062 [main] INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8081"]
+2021-10-21 11:12:20.063 [main] INFO  StandardService:173 - Starting service [Tomcat]
+2021-10-21 11:12:20.063 [main] INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-10-21 11:12:20.178 [main] INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2021-10-21 11:12:20.179 [main] INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 960 ms
+2021-10-21 11:12:20.851 [main] INFO  WelcomePageHandlerMapping:57 - Adding welcome page template: index
+2021-10-21 11:12:20.968 [main] INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8081"]
+2021-10-21 11:12:20.996 [main] INFO  TomcatWebServer:220 - Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-21 11:12:21.014 [main] INFO  DemoApplication:61 - Started DemoApplication in 2.259 seconds (JVM running for 2.7)
+2021-10-21 11:13:46.500 [main] INFO  DemoApplication:55 - Starting DemoApplication using Java 1.8.0_291 on zengchao with PID 172960 (E:\project\demo\target\classes started by zengch in E:\project\demo)
+2021-10-21 11:13:46.503 [main] INFO  DemoApplication:659 - No active profile set, falling back to default profiles: default
+2021-10-21 11:13:47.382 [main] INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8081 (http)
+2021-10-21 11:13:47.396 [main] INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8081"]
+2021-10-21 11:13:47.397 [main] INFO  StandardService:173 - Starting service [Tomcat]
+2021-10-21 11:13:47.397 [main] INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-10-21 11:13:47.510 [main] INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2021-10-21 11:13:47.510 [main] INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 969 ms
+2021-10-21 11:13:48.214 [main] INFO  WelcomePageHandlerMapping:57 - Adding welcome page template: index
+2021-10-21 11:13:48.329 [main] INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8081"]
+2021-10-21 11:13:48.358 [main] INFO  TomcatWebServer:220 - Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-21 11:13:48.375 [main] INFO  DemoApplication:61 - Started DemoApplication in 2.3 seconds (JVM running for 2.747)
+2021-10-21 11:47:26.025 [main] INFO  DemoApplication:55 - Starting DemoApplication using Java 1.8.0_291 on zengchao with PID 172980 (E:\project\demo\target\classes started by zengch in E:\project\demo)
+2021-10-21 11:47:26.028 [main] INFO  DemoApplication:659 - No active profile set, falling back to default profiles: default
+2021-10-21 11:47:26.949 [main] INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8081 (http)
+2021-10-21 11:47:26.960 [main] INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8081"]
+2021-10-21 11:47:26.960 [main] INFO  StandardService:173 - Starting service [Tomcat]
+2021-10-21 11:47:26.961 [main] INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-10-21 11:47:27.071 [main] INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2021-10-21 11:47:27.072 [main] INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 1006 ms
+2021-10-21 11:47:27.779 [main] INFO  WelcomePageHandlerMapping:57 - Adding welcome page template: index
+2021-10-21 11:47:27.889 [main] INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8081"]
+2021-10-21 11:47:27.915 [main] INFO  TomcatWebServer:220 - Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-21 11:47:27.931 [main] INFO  DemoApplication:61 - Started DemoApplication in 2.396 seconds (JVM running for 2.904)
+2021-10-21 12:26:14.039 [main] INFO  DemoApplication:55 - Starting DemoApplication using Java 1.8.0_291 on zengchao with PID 218992 (E:\project\demo\target\classes started by zengch in E:\project\demo)
+2021-10-21 12:26:14.042 [main] INFO  DemoApplication:659 - No active profile set, falling back to default profiles: default
+2021-10-21 12:26:14.918 [main] INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8081 (http)
+2021-10-21 12:26:14.930 [main] INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8081"]
+2021-10-21 12:26:14.931 [main] INFO  StandardService:173 - Starting service [Tomcat]
+2021-10-21 12:26:14.931 [main] INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-10-21 12:26:15.055 [main] INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2021-10-21 12:26:15.055 [main] INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 974 ms
+2021-10-21 12:26:15.745 [main] INFO  WelcomePageHandlerMapping:57 - Adding welcome page template: index
+2021-10-21 12:26:15.858 [main] INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8081"]
+2021-10-21 12:26:15.884 [main] INFO  TomcatWebServer:220 - Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-21 12:26:15.898 [main] INFO  DemoApplication:61 - Started DemoApplication in 2.283 seconds (JVM running for 2.741)
+2021-10-21 14:07:59.403 [main] INFO  DemoApplication:55 - Starting DemoApplication using Java 1.8.0_291 on zengchao with PID 351244 (E:\project\demo\target\classes started by zengch in E:\project\demo)
+2021-10-21 14:07:59.406 [main] INFO  DemoApplication:659 - No active profile set, falling back to default profiles: default
+2021-10-21 14:08:00.285 [main] INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8081 (http)
+2021-10-21 14:08:00.296 [main] INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8081"]
+2021-10-21 14:08:00.296 [main] INFO  StandardService:173 - Starting service [Tomcat]
+2021-10-21 14:08:00.297 [main] INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-10-21 14:08:00.405 [main] INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2021-10-21 14:08:00.405 [main] INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 958 ms
+2021-10-21 14:08:01.073 [main] INFO  WelcomePageHandlerMapping:57 - Adding welcome page template: index
+2021-10-21 14:08:01.180 [main] INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8081"]
+2021-10-21 14:08:01.204 [main] INFO  TomcatWebServer:220 - Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-21 14:08:01.220 [main] INFO  DemoApplication:61 - Started DemoApplication in 2.264 seconds (JVM running for 2.718)
+2021-10-21 14:08:53.589 [main] INFO  DemoApplication:55 - Starting DemoApplication using Java 1.8.0_291 on zengchao with PID 270720 (E:\project\demo\target\classes started by zengch in E:\project\demo)
+2021-10-21 14:08:53.591 [main] INFO  DemoApplication:659 - No active profile set, falling back to default profiles: default
+2021-10-21 14:08:54.481 [main] INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8081 (http)
+2021-10-21 14:08:54.492 [main] INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8081"]
+2021-10-21 14:08:54.492 [main] INFO  StandardService:173 - Starting service [Tomcat]
+2021-10-21 14:08:54.493 [main] INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-10-21 14:08:54.601 [main] INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2021-10-21 14:08:54.602 [main] INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 973 ms
+2021-10-21 14:08:55.272 [main] INFO  WelcomePageHandlerMapping:57 - Adding welcome page template: index
+2021-10-21 14:08:55.381 [main] INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8081"]
+2021-10-21 14:08:55.408 [main] INFO  TomcatWebServer:220 - Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-21 14:08:55.421 [main] INFO  DemoApplication:61 - Started DemoApplication in 2.257 seconds (JVM running for 2.704)

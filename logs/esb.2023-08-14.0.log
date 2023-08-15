@@ -1,0 +1,36 @@
+2023-08-14 10:13:09.430 [main] INFO  DemoApplication:55 - Starting DemoApplication v0.0.1-SNAPSHOT using Java 1.8.0_131 on DESKTOP-TSJ794A with PID 9288 (H:\zengch\demo-0.0.1-SNAPSHOT.jar started by LXM in C:\Windows\System32)
+2023-08-14 10:13:09.461 [main] INFO  DemoApplication:659 - No active profile set, falling back to default profiles: default
+2023-08-14 10:13:11.992 [main] INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8082 (http)
+2023-08-14 10:13:12.008 [main] INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2023-08-14 10:13:12.008 [main] INFO  StandardService:173 - Starting service [Tomcat]
+2023-08-14 10:13:12.008 [main] INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2023-08-14 10:13:12.133 [main] INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2023-08-14 10:13:12.133 [main] INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 2500 ms
+2023-08-14 10:13:13.055 [main] INFO  WelcomePageHandlerMapping:57 - Adding welcome page template: index
+2023-08-14 10:13:13.180 [main] INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8082"]
+2023-08-14 10:13:13.211 [main] INFO  TomcatWebServer:220 - Tomcat started on port(s): 8082 (http) with context path ''
+2023-08-14 10:13:13.242 [main] INFO  DemoApplication:61 - Started DemoApplication in 4.835 seconds (JVM running for 6.921)
+2023-08-14 12:24:41.906 [main] INFO  DemoApplication:55 - Starting DemoApplication v0.0.1-SNAPSHOT using Java 1.8.0_131 on DESKTOP-TSJ794A with PID 4960 (H:\zengch\demo-0.0.1-SNAPSHOT.jar started by LXM in C:\Windows\system32)
+2023-08-14 12:24:41.938 [main] INFO  DemoApplication:659 - No active profile set, falling back to default profiles: default
+2023-08-14 12:24:44.647 [main] INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8082 (http)
+2023-08-14 12:24:44.679 [main] INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2023-08-14 12:24:44.679 [main] INFO  StandardService:173 - Starting service [Tomcat]
+2023-08-14 12:24:44.679 [main] INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2023-08-14 12:24:44.788 [main] INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2023-08-14 12:24:44.788 [main] INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 2725 ms
+2023-08-14 12:24:46.007 [main] INFO  WelcomePageHandlerMapping:57 - Adding welcome page template: index
+2023-08-14 12:24:46.179 [main] INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8082"]
+2023-08-14 12:24:46.210 [main] INFO  TomcatWebServer:220 - Tomcat started on port(s): 8082 (http) with context path ''
+2023-08-14 12:24:46.226 [main] INFO  DemoApplication:61 - Started DemoApplication in 5.53 seconds (JVM running for 7.638)
+2023-08-14 12:27:41.000 [main] INFO  DemoApplication:55 - Starting DemoApplication v0.0.1-SNAPSHOT using Java 1.8.0_131 on DESKTOP-TSJ794A with PID 5656 (H:\zengch\demo-0.0.1-SNAPSHOT.jar started by LXM in C:\Windows\system32)
+2023-08-14 12:27:41.031 [main] INFO  DemoApplication:659 - No active profile set, falling back to default profiles: default
+2023-08-14 12:27:43.359 [main] INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8082 (http)
+2023-08-14 12:27:43.375 [main] INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2023-08-14 12:27:43.375 [main] INFO  StandardService:173 - Starting service [Tomcat]
+2023-08-14 12:27:43.375 [main] INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2023-08-14 12:27:43.469 [main] INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2023-08-14 12:27:43.469 [main] INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 2204 ms
+2023-08-14 12:27:44.562 [main] INFO  WelcomePageHandlerMapping:57 - Adding welcome page template: index
+2023-08-14 12:27:44.703 [main] INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8082"]
+2023-08-14 12:27:44.734 [main] INFO  TomcatWebServer:220 - Tomcat started on port(s): 8082 (http) with context path ''
+2023-08-14 12:27:44.750 [main] INFO  DemoApplication:61 - Started DemoApplication in 4.927 seconds (JVM running for 7.19)

@@ -1,0 +1,44 @@
+2023-07-23 19:36:23.048 [main] INFO  DemoApplication:55 - Starting DemoApplication v0.0.1-SNAPSHOT using Java 1.8.0_131 on DESKTOP-TSJ794A with PID 648 (G:\idea-project\demo\deploy\demo-0.0.1-SNAPSHOT.jar started by LXM in G:\idea-project\demo\deploy)
+2023-07-23 19:36:23.056 [main] INFO  DemoApplication:659 - No active profile set, falling back to default profiles: default
+2023-07-23 19:36:24.462 [main] INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8082 (http)
+2023-07-23 19:36:24.475 [main] INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2023-07-23 19:36:24.476 [main] INFO  StandardService:173 - Starting service [Tomcat]
+2023-07-23 19:36:24.477 [main] INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2023-07-23 19:36:24.548 [main] INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2023-07-23 19:36:24.549 [main] INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 1403 ms
+2023-07-23 19:36:25.345 [main] INFO  WelcomePageHandlerMapping:57 - Adding welcome page template: index
+2023-07-23 19:36:25.457 [main] INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8082"]
+2023-07-23 19:36:25.484 [main] INFO  TomcatWebServer:220 - Tomcat started on port(s): 8082 (http) with context path ''
+2023-07-23 19:36:25.499 [main] INFO  DemoApplication:61 - Started DemoApplication in 2.962 seconds (JVM running for 3.428)
+2023-07-23 19:42:01.717 [main] INFO  DemoApplication:55 - Starting DemoApplication v0.0.1-SNAPSHOT using Java 1.8.0_131 on DESKTOP-TSJ794A with PID 13640 (G:\idea-project\demo\deploy\demo-0.0.1-SNAPSHOT.jar started by LXM in G:\idea-project\demo\deploy)
+2023-07-23 19:42:01.721 [main] INFO  DemoApplication:659 - No active profile set, falling back to default profiles: default
+2023-07-23 19:42:03.457 [main] INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8082 (http)
+2023-07-23 19:42:03.479 [main] INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2023-07-23 19:42:03.480 [main] INFO  StandardService:173 - Starting service [Tomcat]
+2023-07-23 19:42:03.481 [main] INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2023-07-23 19:42:03.577 [main] INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2023-07-23 19:42:03.577 [main] INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 1764 ms
+2023-07-23 19:42:04.648 [main] INFO  WelcomePageHandlerMapping:57 - Adding welcome page template: index
+2023-07-23 19:42:04.797 [main] INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8082"]
+2023-07-23 19:42:04.805 [main] WARN  AnnotationConfigServletWebServerApplicationContext:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8082 is already in use
+2023-07-23 19:42:04.810 [main] INFO  Http11NioProtocol:173 - Pausing ProtocolHandler ["http-nio-8082"]
+2023-07-23 19:42:04.810 [main] INFO  StandardService:173 - Stopping service [Tomcat]
+2023-07-23 19:42:04.814 [main] INFO  Http11NioProtocol:173 - Stopping ProtocolHandler ["http-nio-8082"]
+2023-07-23 19:42:04.815 [main] INFO  Http11NioProtocol:173 - Destroying ProtocolHandler ["http-nio-8082"]
+2023-07-23 19:42:04.824 [main] INFO  ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-23 19:42:04.845 [main] ERROR LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+

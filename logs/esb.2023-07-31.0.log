@@ -1,0 +1,41 @@
+2023-07-31 23:00:16.870 [main] INFO  DemoApplication:55 - Starting DemoApplication using Java 1.8.0_131 on DESKTOP-TSJ794A with PID 7268 (G:\idea-project\demo\target\classes started by LXM in G:\idea-project\demo)
+2023-07-31 23:00:16.886 [main] INFO  DemoApplication:659 - No active profile set, falling back to default profiles: default
+2023-07-31 23:00:18.614 [main] INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8082 (http)
+2023-07-31 23:00:18.627 [main] INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2023-07-31 23:00:18.628 [main] INFO  StandardService:173 - Starting service [Tomcat]
+2023-07-31 23:00:18.629 [main] INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2023-07-31 23:00:18.750 [main] INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2023-07-31 23:00:18.751 [main] INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 1768 ms
+2023-07-31 23:00:23.251 [main] INFO  WelcomePageHandlerMapping:57 - Adding welcome page template: index
+2023-07-31 23:00:23.593 [main] WARN  AnnotationConfigServletWebServerApplicationContext:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'discoveryAutoRegister' defined in class path resource [com/alibaba/boot/nacos/discovery/autoconfigure/NacosDiscoveryAutoConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: serverList is empty,please check configuration; nested exception is ErrCode:-400, ErrMsg:serverList is empty,please check configuration
+2023-07-31 23:00:23.595 [main] INFO  AnnotationNacosInjectedBeanPostProcessor:354 - class com.alibaba.nacos.spring.beans.factory.annotation.AnnotationNacosInjectedBeanPostProcessor was destroying!
+2023-07-31 23:00:23.600 [main] INFO  StandardService:173 - Stopping service [Tomcat]
+2023-07-31 23:00:23.615 [main] INFO  ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-31 23:00:23.672 [main] ERROR LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+client error: invalid param. serverList is empty,please check configuration
+
+Action:
+
+please check your client configuration
+
+2023-07-31 23:01:11.584 [main] INFO  DemoApplication:55 - Starting DemoApplication using Java 1.8.0_131 on DESKTOP-TSJ794A with PID 1156 (G:\idea-project\demo\target\classes started by LXM in G:\idea-project\demo)
+2023-07-31 23:01:11.589 [main] INFO  DemoApplication:659 - No active profile set, falling back to default profiles: default
+2023-07-31 23:01:12.911 [main] INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8082 (http)
+2023-07-31 23:01:12.928 [main] INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8082"]
+2023-07-31 23:01:12.929 [main] INFO  StandardService:173 - Starting service [Tomcat]
+2023-07-31 23:01:12.930 [main] INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2023-07-31 23:01:13.037 [main] INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2023-07-31 23:01:13.038 [main] INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 1389 ms
+2023-07-31 23:01:13.807 [main] INFO  WelcomePageHandlerMapping:57 - Adding welcome page template: index
+2023-07-31 23:01:14.202 [main] INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8082"]
+2023-07-31 23:01:14.234 [main] INFO  TomcatWebServer:220 - Tomcat started on port(s): 8082 (http) with context path ''
+2023-07-31 23:01:14.251 [main] INFO  DemoApplication:61 - Started DemoApplication in 3.264 seconds (JVM running for 3.839)

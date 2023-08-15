@@ -1,0 +1,48 @@
+2021-10-21 10:51:19.894 [main] ERROR LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-10-21 11:06:14.339 [main] ERROR SpringApplication:843 - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:794)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.txxy.demo.DemoApplication.main(DemoApplication.java:49)
+Caused by: org.springframework.web.client.RestClientException: No HttpMessageConverter for org.springframework.util.LinkedMultiValueMap and content type "application/x-www-form-urlencoded"
+	at org.springframework.web.client.RestTemplate$HttpEntityRequestCallback.doWithRequest(RestTemplate.java:1000)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:774)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at com.txxy.demo.test.JvmOomTest.doRequest(JvmOomTest.java:50)
+	at com.txxy.demo.test.JvmOomTest.run(JvmOomTest.java:31)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	... 5 common frames omitted
+2021-10-21 11:07:47.676 [main] ERROR SpringApplication:843 - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:794)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.txxy.demo.DemoApplication.main(DemoApplication.java:49)
+Caused by: org.springframework.web.client.RestClientException: No HttpMessageConverter for org.springframework.util.LinkedMultiValueMap and content type "application/x-www-form-urlencoded"
+	at org.springframework.web.client.RestTemplate$HttpEntityRequestCallback.doWithRequest(RestTemplate.java:1000)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:774)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at com.txxy.demo.test.JvmOomTest.doRequest(JvmOomTest.java:50)
+	at com.txxy.demo.test.JvmOomTest.run(JvmOomTest.java:31)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	... 5 common frames omitted

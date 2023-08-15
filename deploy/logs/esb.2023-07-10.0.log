@@ -1,0 +1,28 @@
+2023-07-10 09:00:47.179 [main] INFO  DemoApplication:55 - Starting DemoApplication v0.0.1-SNAPSHOT using Java 1.8.0_351 on zengchao with PID 16804 (E:\file\project\demo\deploy\demo-0.0.1-SNAPSHOT.jar started by zengch in E:\file\project\demo\deploy)
+2023-07-10 09:00:47.194 [main] INFO  DemoApplication:659 - No active profile set, falling back to default profiles: default
+2023-07-10 09:00:48.834 [main] INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8081 (http)
+2023-07-10 09:00:48.850 [main] INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8081"]
+2023-07-10 09:00:48.850 [main] INFO  StandardService:173 - Starting service [Tomcat]
+2023-07-10 09:00:48.850 [main] INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2023-07-10 09:00:49.287 [main] INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2023-07-10 09:00:49.287 [main] INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 1980 ms
+2023-07-10 09:00:50.335 [main] INFO  WelcomePageHandlerMapping:57 - Adding welcome page template: index
+2023-07-10 09:00:50.444 [main] INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8081"]
+2023-07-10 09:00:50.491 [main] INFO  TomcatWebServer:220 - Tomcat started on port(s): 8081 (http) with context path ''
+2023-07-10 09:00:50.507 [main] INFO  DemoApplication:61 - Started DemoApplication in 3.996 seconds (JVM running for 4.899)
+2023-07-10 09:05:05.166 [http-nio-8081-exec-4] INFO  Http11Processor:175 - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x050x010x000x01...]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:419)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2023-07-10 09:05:12.159 [http-nio-8081-exec-3] INFO  [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-10 09:05:12.159 [http-nio-8081-exec-3] INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2023-07-10 09:05:12.160 [http-nio-8081-exec-3] INFO  DispatcherServlet:547 - Completed initialization in 0 ms

@@ -1,0 +1,14 @@
+2023-07-31 23:00:23.672 [main] ERROR LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+client error: invalid param. serverList is empty,please check configuration
+
+Action:
+
+please check your client configuration
+

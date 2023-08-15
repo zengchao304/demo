@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.txxy.demo.mapper.TestMapper">
+
+    <resultMap id="TestResult" type="com.txxy.demo.domain.TestDO">
+        <result property="id" column="ID"/>
+        <result property="num1" column="num1"/>
+        <result property="num2" column="num2"/>
+        <result property="sum" column="sum"/>
+    </resultMap>
+    <!-- table columns -->
+    <sql id="tb_test_columns">
+        id,num1,num2,sum
+    </sql>
+    <insert id="insert" parameterType="com.txxy.demo.domain.TestDO" useGeneratedKeys="true"
+            keyProperty="id">
+        insert into test(
+        <include refid="tb_test_columns"/>
+        )values(null,#{num1},#{num2},#{sum})
+    </insert>
+
+</mapper>
